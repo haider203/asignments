@@ -34,12 +34,17 @@
 //     }
 // }
 // console.log(num1Array);
+let numbers = [2, 2, 3, 4];
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 == 0) {
+        numbers.splice(i, 2);
+        i--;
+    }
+}
+console.log(numbers);
 //  - Write a program that defines a function to calculate the area of a circle. The function should take the radius as input and return the calculated area.
 //  - Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array.
 //  - Write a program that uses a function to find the largest element in an array of numbers
-var ReM;
-ReM = 11 % 3;
-console.log(ReM);
 // Develop a program that calculates and prints the sum of the first n even numbers using a for loop.
 // let evenNum = 7;
 // function sumOfEvenNumbers(n) {
