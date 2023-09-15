@@ -92,12 +92,12 @@
  // Given an array of names ["Alice", "Bob", "Charlie", "David", "Emily"], use the forEach method to log each
  // name with an exclamation mark at the end, e.g., "Alice!"
 
-// let namedArray:string[]=["Alice", "Bob", "Charlie", "David", "Emily"];
-// namedArray.forEach(function(exc){
-//     console.log(exc+"!");
+let namedArray:string[]=["Alice", "Bob", "Charlie", "David", "Emily"];
+namedArray.forEach(function(exc){
+    console.log(exc+"!");
     
-// })
-// console.log(namedArray);
+})
+console.log(namedArray);
 
 
 

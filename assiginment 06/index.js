@@ -1,4 +1,3 @@
-"use strict";
 // Write a program that uses filter to remove all negative numbers from an array of numbers
 // let removeNegNumber:number []=[-1,-2,3,4,-5,-6,7,8,-9,-10,11,12];
 // let positiveNUmberArr:number[] = removeNegNumber.filter((data)=>{
@@ -47,16 +46,16 @@
 // console.log(`Farheinheit Temptature is= ${farheinheit}`);
 // Given an array of numbers [3, 6, 9, 12, 15, 18], use the map and filter methods together to create a new
 // array containing the doubled values of odd numbers.
-let oddValue = [3, 6, 9, 12, 15, 18];
-let oddValueDouble = oddValue.map(function (Doubled) {
-    if (Doubled % 2 !== 0) {
-        return Doubled * 2;
-    }
-    else {
-        return Doubled;
-    }
-});
-console.log(oddValueDouble);
+//  let oddValue:number[]=[3, 6, 9, 12, 15, 18];
+//  let oddValueDouble:number[]=oddValue.map(function(Doubled){
+//     if (Doubled%2 !==0) {
+//         return Doubled*2;
+//     }
+//     else{
+//         return Doubled;
+//     }
+//  });
+// console.log(oddValueDouble);
 // Given an array of names ["Alice", "Bob", "Charlie", "David", "Emily"], use the forEach method to log each
 // name with an exclamation mark at the end, e.g., "Alice!"
 let namedArray = ["Alice", "Bob", "Charlie", "David", "Emily"];
@@ -64,9 +63,4 @@ namedArray.forEach(function (exc) {
     console.log(exc + "!");
 });
 console.log(namedArray);
-// const names:string[]=["Alice", "Bob", "Charlie", "David", "Emily"];
-// console.log(`Names with exclamation marks=`);
-// names.forEach(function(a)
-// {
-// console.log(a+"!");
-// });
+export {};
