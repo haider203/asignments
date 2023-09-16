@@ -868,32 +868,84 @@ let new_users:string[]=['ali','yasir','qadeer','zaid','saad']
 // includes a value for the number of tracks, add that value to the album’s Object. Make at least one new function call 
 //that includes the number of tracks on an album.
 
-function make_album(name:string,title:string) {
-     
-}
+// function make_album(Names:string,title:string) {
+//    let album={
+//           artistname:Names,
+//           albumtitle:title,
+//      }
+//      return album;
+//      }
+//      let album1 = make_album("divid","games of Scared ");
+//      let album2 =make_album("jhones","Obbssion");
+//      let album3= make_album("Alin ","Vempairs daires");
+
+// console.log(album1);
+// console.log(album2);
+// console.log(album3);
 
 
 
 // 41. Magicians: Make a array of magician’s names. Pass the array to a function
 // called show_magicians(), which prints the name of each magician in the array.
 
+// let magicians1:string[]=['saad','haider','usman','bakir','yaktian'];
+// function show_magicians(magician:string[]) {
+//      magician.forEach(mag =>{
+//           console.log(mag ,"magicians");
+          
+//      })
+// }
+
+// console.log(show_magicians(magicians1));
+
+
+
 // 42. Great Magicians: Start with a copy of your program from Exercise 39.
-// Write a function called make_great() that modifies the array of magicians by adding
-// the phrase the Great to each magician’s name. Call show_magicians() to
-// see that the list has actually been modified.
+// Write a function called make_great() that modifies the array of magicians by adding the phrase the Great to each magician’s
+// name. Call show_magicians() to see that the list has actually been modified.
 
-// 43. Unchanged Magicians: Start with your work from Exercise 40. Call the
-// function make_great() with a copy of the array of magicians’ names. Because the
-// original array will be unchanged, return the new array and store it in a separate array.
-// Call show_magicians() with each array to show that you have one array of the original
-// names and one array with the Great added to each magician’s name.
+// let magicians:string[]=['saad','haider','usman','bakir','yaktian'];
+// function make_great(magician:string[]) {
+//      magicians.forEach(mag => {
+//           console.log("Great Magician",mag);
+          
+//      })
+     
+     
+// }
+// console.log(make_great(magicians ));
 
 
-// 44. Sandwiches: Write a function that accepts a array of items a person wants
-// on a sandwich. The function should have one parameter that collects as many
-// items as the function call provides, and it should print a summary of the sandwich
-// that is being ordered. Call the function three times, using a different number
-// of arguments each time.
+
+
+// 43. Unchanged Magicians: Start with your work from Exercise 40. Call the function make_great() with a copy of the array
+// of magicians’ names. Because the
+// original array will be unchanged, return the new array and store it in a separate array. Call show_magicians() with
+// each array to show that you have one array of the original names and one array with the Great added to each magician’s name.
+
+// make_great(magicians);
+
+// let newarr:string[]=['adeel','zaheer','qadeer'];
+// show_magician(newarr);
+
+
+
+
+// 44. Sandwiches: Write a function that accepts a array of items a person wants on a sandwich. The function should have 
+//one parameter that collects as many
+// items as the function call provides, and it should print a summary of the sandwich that is being ordered. 
+//Call the function three times, using a different number of arguments each time.
+
+// function sandwich(items:string[]) {
+//      for (let item of items) {
+//        console.log(`you added ${item}`);         
+//      }
+// }
+// let Ingridients:string[]=['chicken','onion','butter'];
+// console.log(sandwich(Ingridients));
+
+
+
 
 
 // 45. Cars: Write a function that stores information about a car in a Object.
@@ -904,6 +956,13 @@ function make_album(name:string,title:string) {
 // Print the Object that’s returned to make sure all the information was
 // stored correctly.
 
-
-
+// function carprop(manufacturer:string ,model:number) {
+//      let Cars= {
+//           manufacturer,
+//           model
+//      }
+//      return Cars
+// }
+// let cardata=carprop("honda",2023);
+// console.log(cardata);
 
